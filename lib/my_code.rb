@@ -79,6 +79,18 @@ def reduce_to_all_true(source_array)
 end
 
 def reduce_to_any_true(source_array)
-
+  index = 0
+  check = 0
+  source_array.each do |num|
+    if num
+       check += 1
+    end
+    index += 1
+  end
+  if check > 0
+     return true  
+  else 
+     return false
+  end
 end
 
