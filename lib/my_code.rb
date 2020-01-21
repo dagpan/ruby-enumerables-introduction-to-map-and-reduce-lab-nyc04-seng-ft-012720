@@ -38,10 +38,10 @@ end
 
 
 def map_to_square(source_array)
-    result_array = []
+  result_array = []
   index = 0
   source_array.each do |num|
-    num = num * -1
+    num = num **2
     result_array[index] = num
     index += 1
   end
