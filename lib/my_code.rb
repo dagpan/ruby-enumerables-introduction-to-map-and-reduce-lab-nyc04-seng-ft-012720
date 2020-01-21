@@ -61,18 +61,19 @@ end
 
 def reduce_to_all_true(source_array)
   index = 0
-  result_array = [] 
+  check = [] 
   source_array.each do |num|
     if num
        result_array[index] = "true"
+       check += check
     else 
        result_array[index] = "false"
     end
-    index += 1
+    
   end
   result_array_.each do |str|
-    if num
-       result_array[index] = "true"
+    if str = "true"
+       
     else 
        result_array[index] = "false"
 end
