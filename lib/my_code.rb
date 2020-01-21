@@ -51,12 +51,12 @@ end
 
 def reduce_to_total(source_array, starting_point = 0)
   return_value = 0
-  index = 0
-  source_array.each do |num|
-    if num
-       return_value += num
-    end
-    index += 1
+  index = starting_point
+  while index < source_array.length
+        if source_array[index]
+           return_value += source_array[index]
+        end
+        index += 1
   end
   return_value
 end
