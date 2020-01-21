@@ -17,7 +17,7 @@ def map_to_no_change(source_array)
   result_array = []
   index = 0
   source_array.each do |num|
-    num = num * -1
+#    num = num * -1
     result_array[index] = num
     index += 1
   end
