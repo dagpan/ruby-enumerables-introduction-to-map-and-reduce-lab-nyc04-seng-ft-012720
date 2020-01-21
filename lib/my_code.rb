@@ -29,7 +29,7 @@ def map_to_double(source_array)
   result_array = []
   index = 0
   source_array.each do |num|
-    num = num * -1
+    num *= num
     result_array[index] = num
     index += 1
   end
