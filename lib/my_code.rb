@@ -34,8 +34,6 @@ def map_to_double(source_array)
     index += 1
   end
   result_array  
-  
-  
 end
 
 
