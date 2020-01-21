@@ -6,7 +6,10 @@ def map_to_negativize(source_array)
   index = 0
   source_array.each do |num|
     num = num * -1
+    result_array[index] = num
+    index += 1
   end
+  result_array
 end
 
 
