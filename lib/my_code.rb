@@ -60,14 +60,21 @@ def reduce_to_total(source_array, starting_point = 0)
 end
 
 def reduce_to_all_true(source_array)
-  result_array = []
   index = 0
+  result_array = [] 
   source_array.each do |num|
-    num = num **2
-    result_array[index] = num
+    if num
+       result_array[index] = "true"
+    else 
+       result_array[index] = "false"
+    end
     index += 1
   end
-  result_array
+  result_array_.each do |str|
+    if num
+       result_array[index] = "true"
+    else 
+       result_array[index] = "false"
 end
 
 def reduce_to_any_true(source_array)
