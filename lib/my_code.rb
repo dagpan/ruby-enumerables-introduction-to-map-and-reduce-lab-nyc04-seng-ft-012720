@@ -52,8 +52,10 @@ end
 def reduce_to_total(source_array, starting_point = 0)
   return_value = 0
   index = 0
-  while index < source_array.length do
-    return_value += source_array[starting_point]
+  source_array.each do |num|
+    if num
+       return_value += num
+    end
     index += 1
   end
   return_value
