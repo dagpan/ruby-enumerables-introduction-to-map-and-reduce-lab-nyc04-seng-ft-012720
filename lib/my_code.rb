@@ -22,8 +22,6 @@ def map_to_no_change(source_array)
     index += 1
   end
   result_array  
-  
-  
 end
 
 
