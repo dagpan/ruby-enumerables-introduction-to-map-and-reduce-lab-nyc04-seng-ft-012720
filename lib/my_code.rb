@@ -51,11 +51,9 @@ end
 
 def reduce_to_total(source_array, starting_point = 0)
   return_value = 0
-#  array_1 = []
   index = 0
   while index < source_array.length do
     return_value += source_array[index]
-#    array1[index] = num
     index += 1
   end
   return_value
