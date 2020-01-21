@@ -65,7 +65,7 @@ def reduce_to_all_true(source_array)
   check = 0
   source_array.each do |num|
     if num
-       check += check
+       check += 1
     end
     index += 1
   end
